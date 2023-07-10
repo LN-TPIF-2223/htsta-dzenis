@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background-color: red;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 24%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: large;
+}
+
+nav a:hover {
+    color: cornflowerblue;
+    background-color: navy;
+}
+
+header, main {
+    width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.wrapper figure {
+    margin: 0;
+}
+
+.wrapper img {
+    width: 100%;
+    display: block;;
+}
+
+.wrapper figcaption {
+    position: absolute;
+    top: 0;
+    background-color: rgba(34, 27, 71, 0.247);
+    padding: 5px;
+    margin: 5px;
+}
+
+.wrapper .controls {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(34, 27, 71, 0.795);
+    text-align: center;
+}
+
+.wrapper .controls span {
+    display: inline-block;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+}
